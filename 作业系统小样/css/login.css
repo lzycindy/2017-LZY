@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	text-decoration: none;
+}
+#content{
+	width: 100%;
+	position: relative;
+}
+#back{
+	width: 100%;
+	height: 967px;
+	background-image: url(../img/login1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 1;	
+	position: absolute;
+}
+.opacity_div{
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	background-color: black;
+}
+#mid{
+	position: absolute;
+	top: 250px;
+	left: 40%;
+	width: 340px;
+	height: 464px;
+	background-color: #fff;
+	border-radius: 15%;
+	opacity: .9;
+	z-index: 3;
+}
+#mid h1{
+	color: black;
+	font-weight: 550;
+	text-align: center;
+	margin-top: 55px;
+	font-size: 42px;
+}
+#mid input,button{
+	margin-top: 45px;
+	margin-left: 45px;
+	width: 240px;
+	height: 40px;
+}
+#mid input{
+	border: 1px solid gainsboro;
+	border-radius:6px ;
+	font-size: 16px;
+}
+#mid button{
+	cursor: pointer;
+	font-size: 21px;
+	background-color: gray;
+	opacity: .8;
+	color: #000000;
+}
+#mid button:hover{
+	background-color: dodgerblue;
+	opacity: .8;
+	color: #FFFFFF;
+}

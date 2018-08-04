@@ -1,0 +1,66 @@
+*{
+	margin: 0 auto;
+	border: 0;
+	font-family: "微软雅黑";
+	list-style: none;
+}
+#background{
+	background-color: gray;
+	width: 100%;
+}
+#head p
+{
+	padding: 30px 0px;
+    font-size: 30px;
+    background-color: white;              
+}
+#content{
+	background-color: #FFFFFF;
+	margin: auto;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 200px;            
+}
+#content li{
+    overflow: hidden;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF; 
+}
+#content span{
+	margin-right:20px ;
+	display: inline-block;
+}
+#content input{
+	border: 1px solid #333!important;
+	border-radius: 3px;
+	font-size: 14px;
+	width: 60%;
+	height: 34px;
+	display: inline-block;
+}
+#submit button{
+	margin: auto;
+    color: #ffffff;
+    width: 85px;
+    background-color: #333;
+    opacity: .6;
+    font-size: 21px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 35px;
+    line-height: 35px;
+}
+#submit button:hover{
+	background-color: #1E90FF;
+	opacity: .7;
+}
+.judge {
+	color: red;
+}		    

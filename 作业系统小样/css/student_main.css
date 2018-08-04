@@ -1,0 +1,231 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	text-decoration: none;
+}
+#content{
+	width: 100%;
+}
+nav{
+	width: 100%;
+	height: 80px;
+	background-color: gray;
+	opacity: .8;
+	position: relative;	
+}
+nav h2{
+	position: absolute;
+	top: 3px;
+	left: 35%;
+	font-size: 100px;
+}
+nav p {
+	position: absolute;
+	right:0 ;
+	top:0 ;
+	text-align: right;
+	padding-top: 30px;
+	padding-right: 80px;
+	color: #FFFFFF;
+	font-size: 21px;
+}
+nav i{
+	font-style: normal;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+#putOn,#goga_list{
+	margin-top: 100px !important;
+	width: 80%;
+	height: 600px;
+	margin: 0 auto;
+	border-top: 20px solid darkgrey;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-left: 2px solid darkgray;
+	border-right: 2px solid darkgray;
+	border-bottom: 2px solid darkgray;
+	position: relative;
+}
+#hw_list{
+	width: 43.9%;
+	position: absolute;
+	left: 1%;
+	top: 0;
+	border-right: 2px solid darkgrey;
+}
+#hw_menu{
+	width: 54%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#hw_list p{
+	color: dimgrey;
+	margin: 25px 0px 30px 4%;
+	font-size: 28px;
+}
+#hw_list ul{
+	height: 500px;
+	width: 100%;
+}
+#hw_list ul li{
+	margin-bottom: 28px;
+	width: 98%;
+	margin-right: 2%;
+	height: 42px;
+	border-bottom: 1px dashed #808080;
+}
+.funs_menu{
+	margin: 20px 80px 15px 5px;
+	border-bottom: 2px solid #808080;
+}
+.funs_menu a{
+	display:inline-block;
+	font-size:21px ;
+	margin: 5px 30px;
+	color: #696969;
+}
+.remarks_menu textarea{
+	color: #A9A9A9;
+	font-size:16px ;
+	margin: 10px 80px 15px 35px;
+	border: 1px solid #A9A9A9;
+	padding: 10px;
+}
+.login_menu{
+	margin: 85px 25%;
+}
+.login_menu button{
+	font-size: 24px;
+	color: #FFFFFF;
+	background-color: #808080;
+	opacity: .7;
+	margin-right: 80px;
+	border-radius: 5px;
+	padding: 5px;
+}
+.login_menu button:hover{
+	background-color: #1E90FF;
+	font-size: 26px;
+	opacity: .4s;
+}
+#goga_list{
+	height: 480px !important;
+}
+.goga_top{
+	position: relative;
+	height: 90px;
+}
+.goga_top p{
+	width: 88%;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-bottom:2px double #A9A9A9;
+	color: #696969;
+	font-size: 26px;
+	position: absolute;
+	top: 15px;
+	left: 2%;
+}
+#laba_left{
+	position: absolute;
+	top: 15px;
+	left:90%;
+}
+#laba{
+	position: absolute;
+	top: 15px;
+	left: 91.3%;
+}
+.gong_list{
+   margin-left: 2%;
+   width: 93.9%;
+}
+.gong_list ul{
+	width:100%;
+	margin-left: -15px;
+	position: relative;	
+}
+.gong_list ul li{
+	width: 98%;
+	padding: 0 1%;
+	height: 40px;
+	margin: 15px 0;
+	border-bottom: 1px dashed #DCDCDC;	
+	position: relative;
+}
+.gong_list ul li a{
+	display: block;
+	font-size: 18px;
+	color: #000000;
+	line-height: 32px;
+	z-index:2 ;
+	width: 80%;
+	overflow: hidden;
+}
+.gong_list ul li span{
+	position: absolute;
+	right: 5%;
+	top:7px ;
+	width: 7%;
+	display: block;
+}
+.gong_list ul li a:hover{
+	color: mediumblue;
+	opacity: .6;
+	font-size: 20px;
+}
+.more{
+	color: #000000;
+	position: absolute;
+	bottom: 1%;
+	right: 5%;
+}
+.foot{
+	margin-top:30px ;
+	width: 100%;
+	background-color: #808080;
+	position: relative;
+}
+.opacity_div2{
+	background-color: #FFFFFF;
+	opacity: .5;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+.logo img{
+	width: 300px;
+	height: 140px;
+	position: absolute;
+	left: 40%;
+	top: 7%;
+}
+.logo span:first-child{
+	background-color: #FFFFFF;
+	opacity: .5;
+	height: 2px;
+	width: 30%;
+	position: absolute;
+	left: 10%;
+	top: 45%;
+}
+.logo span:last-child{
+	background-color: #FFFFFF;
+	opacity: .5;
+	height: 2px;
+	width: 34%;
+	position: absolute;
+	right: 10%;
+	top: 45%;
+}

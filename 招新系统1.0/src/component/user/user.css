@@ -1,0 +1,83 @@
+.main{
+    width: 1366px;
+}
+
+.box1{
+    width: 80.4%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    height: 573px;
+    box-shadow: 20px 50px 100px;
+}
+.box1_left{
+    flex-grow: 1;
+    background-color: #3f4f91;
+    border-radius: 5px;
+    
+}
+.box1_right{
+    
+    flex-grow: 1.17;
+    border: 1px solid #c5c5c5;
+    border-left: none;
+    border-radius: 5px;
+}
+.person_msg{
+    height: 446px;
+    width: 31.34%;
+    position: absolute;
+    top: 72px;
+    right: 59px;
+}
+.avatar{
+    height: 92px;
+    margin-bottom: 47px;
+}
+
+.avatarL{
+    width: 118px;
+    float: left;
+}
+.avatarR{
+    width: 132px;
+    float: right;
+    border-radius: 6px;
+    border: 2px solid #fcb543;
+    text-align: center;
+    line-height: 40px;
+    color: #fcb543;
+    margin-top: 30px;
+}
+.msg{
+    margin-bottom: 30px;
+    color: #8a8a8a;
+    letter-spacing: 3px;
+    font-size: 1.6rem
+}
+.imgone{
+    position: absolute;
+    left: 98px;
+    top: 68px;
+    width: 435px;
+}
+.person_msg button{
+    width: 104px;
+    line-height: 39px;
+    border-radius: 5px;
+    background-color: #fcb543;
+    text-align: center;
+    color: white;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+.linshi{
+    width: 1366px;
+    margin:  0 auto;
+}
+.avatarL img{
+    width: 92px !important;
+    border-radius: 50%;
+    margin-left: 40px;
+
+}

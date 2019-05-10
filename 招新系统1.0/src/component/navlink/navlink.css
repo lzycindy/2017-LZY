@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.navbar{
+    width: 34.8%;
+    background-color: #fcb543; 
+    position: absolute;
+    right: 0px;
+    top: 22px;
+    height: 39px;
+    border-radius: 6px;
+}
+.navbarul{
+    width: 100%;
+    display: flex;
+}
+.navbarli{
+    text-align:center;
+    line-height: 38px;
+    flex-grow: 1;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}

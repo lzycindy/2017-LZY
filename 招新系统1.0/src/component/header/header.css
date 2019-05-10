@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header{
+    margin: 0 auto;
+    width: 1366px;
+    height: 474px;
+    background-image: url('../img/headerbg2.jpg');
+    position: relative;
+    margin-bottom: 30px;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 77px;
+    width: 32.9%;
+    height: 137px;
+    background-image: url('./img/youngonlogo.png');
+    background-repeat: no-repeat
+}
+.avtar img{
+    border-radius: 50%;
+    position: absolute;
+    top: 244px;
+    left: 127%;
+    width: 70px;
+    height: 70px;
+}
+.title{
+    position: absolute;
+    bottom: 228px;
+    left: 200px;
+    font-size: 6rem;
+    color: white;
+}
+.wel_word{
+    width: 28.2%;
+    position: absolute;
+    bottom: 154px;
+    right: 0;
+}
+.wel_word div{
+    margin-top: 27px;
+    line-height: 23px;
+    color: white;
+    font-size: 23px;
+    letter-spacing: 8px;
+}
+.search{
+    width: 601px;
+    height: 58px;
+    position: absolute;
+    bottom: -30px;
+    left: 383px;
+    display: flex;
+    box-shadow:15px 15px 30px rgb(165, 172, 194) ;
+    border-radius: 14px;
+}
+.search input{
+    flex-grow: 7;
+    height: 100%;
+    border-left: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    outline:none;
+    font-size: 18px;
+    text-indent: 2;
+    padding-left: 10px;
+}
+.search button{
+   flex-grow: 3;
+    height: 100%;
+    background-color: #fcb543;
+    border-radius:15px; 
+    color: white;
+    font-size: 24px;
+    margin-left: -11px;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    letter-spacing: 5px;
+
+}
+.search button:hover{
+    background-color: #f3a82f;
+}
+.search button:active{
+    background-color: #f8a41c;
+}

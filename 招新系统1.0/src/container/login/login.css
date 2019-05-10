@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.login{
+    width: 1366px;
+    margin: 0 auto;
+}
+.login_list{
+    width: 60%;
+    height: 510px;
+    margin: 0 auto;
+    background-image:url('../../component/img/flowbg.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 20px 10px 50px;
+  
+}
+.button{
+    width: 80%;
+    padding-top: 42px;
+    margin: 0 auto;
+}
+.button div{
+    width: 76px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 36px;
+    display: inline-block;
+}
+.button div:nth-child(1){
+    background-color: #445375;
+    border-radius: 4px;
+    color: white; 
+    margin-left: 3%;
+}
+.button div:nth-child(2){
+    margin-left: 71%;
+}
+.loginList{
+    width: 50.4%;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+.detail{
+    font-size: 18px;
+    letter-spacing: 6px;
+    color: #354569;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.loginList input{
+    width: 100%;
+    opacity: 0.45;
+    line-height: 37px;
+    border-radius: 7px;
+    padding-left: 20px;
+}
+.loginbutton{
+    background-image: url(../../component/img/logo2.jpg);
+    position: absolute;
+    bottom: 44px;
+    right: -34px;
+    width: 61px;
+    height: 56px;
+    cursor: pointer;
+}
+.log_reg_p{
+    font-size: 16px;
+    margin-left: 260px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #9e0c3a;
+}

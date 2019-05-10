@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header{
+    margin: 0 auto;
+    width: 1366px;
+    height: 293px;
+    background-image: url('../img/headerbg2.jpg');
+    position: relative;
+}
+.logo1{
+    position: absolute;
+    top: 0;
+    left: 77px;
+    width: 32.9%;
+    height: 137px;
+    background-image: url('../img/logo.jpg');
+}
+.avtar img{
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 120%;
+    width: 60px;
+    height: 60px;
+}
+.title{
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+    font-size: 6rem;
+    color: white;
+}
+.wel_word{
+    width: 28.2%;
+    position: absolute;
+    bottom: 62px;
+    right: 0;
+}
+.wel_word div{
+    margin-top: 27px;
+    line-height: 23px;
+    color: white;
+    font-size: 23px;
+    letter-spacing: 8px;
+}

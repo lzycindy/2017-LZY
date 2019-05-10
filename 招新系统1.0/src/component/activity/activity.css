@@ -1,0 +1,36 @@
+
+.content{
+    width: 1366px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.navBox{
+    width: 52%;
+    margin: 0 auto;
+    height: 63px;
+    display: flex;
+}
+.navBox a{
+    cursor: pointer;
+    flex-grow: 1;
+}
+.navbottom{
+    width: 246px;
+    line-height: 63px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 32px;  
+}
+.navBox a:first-child li{
+    background-color: #fcb543;
+    color: white;
+    border-radius: 20px
+}
+.navBox a:last-child li{
+    color: #575555;
+    background-image: url(./img/buttonbg.jpg);
+    background-position-y: 10px;
+    background-position-x: 10px;
+    background-repeat: no-repeat
+}

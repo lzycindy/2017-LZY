@@ -1,0 +1,242 @@
+.main{
+    width: 1366px;
+    margin: 0 auto;
+    padding-top: 124px; 
+    box-shadow: 0px 20px 70px rgb(222, 225, 233);
+}
+.main>div{
+    width: 72%;
+    margin: 0 auto
+}
+.img3{
+    width: 57.58%;
+    z-index: 4;
+    position: absolute;
+    top: 58px;
+    left: 0;
+}
+.shade{
+    width: 20.24%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 26.92%;
+    background-color: white;
+    z-index: 3;
+}
+.olignDesc{
+    padding-bottom: 139px ;
+    position: relative;
+    height: 953px;
+   
+}
+.olignDescDiv{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 73.13%;
+    background-color: #3f4f91;
+    height: 814px;
+    z-index: 2;
+}
+.title1{
+    width: 33%;
+    height: 73px;
+    margin-left: 10px;
+}
+.title1 p {
+    font-size: 18px;
+    color: white;
+    letter-spacing: 4px;
+    
+}
+.downline{
+    width: 86.02%;
+    height: 8px;
+    background-color: #fcb543;
+    border-radius: 3px;
+    margin-top: -10px !important;
+    margin-left: -10px !important;
+  
+}
+.olige_descrip{
+    width: 100%;
+    height: 300px;
+    line-height: 36px;
+    letter-spacing: 3px;
+    font-size: 16px;
+    color: white
+}
+.olignDescDivIn{
+    height: 390px;
+    width: 40%;
+    position: absolute;
+    right: 75px;
+    top: 58px;
+}
+.title1:nth-child(2){
+    position: absolute;
+    right: 75px;
+    bottom: 285px;
+    width: 13%
+}
+.dep_div{
+    height: 270px;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+}
+.dep_div>div{
+    width: 25%;
+    float: left;
+}
+.dep_div h2{
+    text-align: center;
+    width: 161px;
+    color: white;
+}
+.dep_div p{
+    line-height: 25px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    width: 100%;
+    color: white;
+    height: 220px;
+}
+.olignorDescDiv{
+    position: absolute;
+    left: 0;
+    top: 99px;
+    width: 73.13%;
+    background-color: #3f4f91;
+    height: 750px;
+    z-index: 1;
+}
+.activityDiv{
+    height: 979px;
+    width: 59%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url('./img/actibg.jpg');
+    z-index: 2;
+    padding-top: 114px;
+    padding-left: 44px;
+}
+    
+.title2{
+    width: 13%;
+    height: 73px;
+    margin-left: 10px;
+    position: absolute;
+    left: 67px;
+    top:46px;
+}
+.title2 p {
+    font-size: 18px;
+    color: white;
+    letter-spacing: 4px;  
+}
+.oliger{
+    width: 29.76%;
+    height: 400px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    position: absolute;
+    top: 108px;
+    left: 111px;
+}
+.oliger p,.oliger div{
+    width: 100%;
+}
+.oliger p{
+    letter-spacing: 1px;
+}
+.p1{
+    text-align: center;
+    color: white;
+    margin-bottom: 43px !important;
+    font-size: 1.6rem;
+}
+.p2{
+    text-align: center;
+    color:#3f4f91;
+    margin-bottom: 43px !important;
+    line-height: 38px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-size: 1.6rem;
+}
+.p3{
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+}
+.oligner{
+    height: 317px;
+    background-color: #ffffff;
+    color:#3f4f91;
+    margin-bottom: 40px;
+    height: 139px;
+}
+.oligner p{
+    line-height: 38px;
+    text-align: center
+}
+.title3{
+    width: 13%;
+    height: 73px;
+    margin-left: 10px;
+    position: absolute;
+    top: 478px;
+    left: 67px;
+}
+.title3 p {
+    font-size: 18px;
+    color: white;
+    letter-spacing: 4px;  
+}
+.chat{
+    position: absolute;
+    top: 555px;
+    left: 67px;
+}
+.chat p{
+    margin-bottom: 30px !important;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 1.6rem;
+}
+.activityDiv>div{
+    width: 87.41%;
+    height: 761px;
+    color: white
+}
+.activityDiv>div>p{
+    margin-bottom: 35px !important;
+    margin-left: 52px !important;
+    font-size: 20px;   
+    letter-spacing: 5px;
+}
+.act{
+    margin: 34px 40px ;
+    float: left;
+    width: 150px;
+    height: 106px;
+}
+.act p{
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
+.actp1{
+    margin-bottom:15px !important; 
+}
+.actp2{
+    margin-bottom:10px !important; 
+}
+.oligner img{
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 80px;
+}

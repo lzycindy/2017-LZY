@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+@font-face{
+    font-family: 'zhengwen';
+    src:url('./font/DFYUANHKW5.TTF')
+}
+@font-face{
+    font-family: 'fzct';
+    src: url('./font/方正粗谭黑.TTF')
+}
+p,div,span,li,button,input,a,h2,h3,h4{
+    font-family: 'zhengwen';
+
+}
+p{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+html{
+    font-size: 62.5% !important;
+}
+img { 
+    max-width: 100%;
+}
